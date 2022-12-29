@@ -1,0 +1,131 @@
+.bodyhome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.juntar{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    background-color: #62f4b7;
+    width: 30%;
+    height: 25%;
+    font-size: 50px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.topomenor{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.iconepessoa{
+    margin-right: 20%;
+}
+
+.toposobreposto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 80px;
+    background-color: #05e185;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.valor{
+    font-size: 20px;
+}
+
+.saldo{
+    font-size: 15px;
+    margin-left: 18%;
+}
+
+.adicionar{
+    font-size: 15px;
+}
+
+.circulomais{
+    margin-left: 30%;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 30%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.recarga{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color: #05e185;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white
+}
+
+.domgratis{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color: #05e185;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white
+}
+
+.saldo2{
+    font-size: 19px;
+}
+
+.domingo{
+    margin-left: 5%;
+}
+
+.menuinferiorhome{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}

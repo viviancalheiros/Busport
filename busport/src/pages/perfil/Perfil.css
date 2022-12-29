@@ -1,0 +1,98 @@
+.bodyperfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 99vh;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #62f4b7;
+    border: 2px solid #a6a6a6;
+}
+
+.topoperfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.voltarperfil{
+    margin-right: 60px;
+}
+
+.editar{    
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 22px;
+    color: #62f4b7;
+    font-weight: 700;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.ola{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    color: #a6a6a6;
+    width: 92.6%;
+    height: 60vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 17px;
+    margin-bottom: -20px;
+}
+
+.dados input{
+    border-color: transparent;
+    border-bottom-color: #a6a6a6;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    font-size: 15px;
+    color: #a6a6a6;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.dados select{
+    border-color: #a6a6a6;
+    font-size: 16px;
+    color: #a6a6a6;
+    width: 80%;    
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.menuinferiorperfil{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 96.1%;
+    height: 50vh;
+    background-color: white;
+    padding-left: 20px;
+}

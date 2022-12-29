@@ -1,0 +1,108 @@
+.titulo1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+    border: none;
+    height: 120px;
+}
+
+.bus1{
+    height: 34px;
+    color: #05e185;
+}
+
+.port1{
+    color: white;
+}
+
+.divisao{
+    width: 100x;
+    height: 2px;
+    margin: 20px;
+    background-color: white;
+}
+
+.menu-item{
+    margin-left: 7px;
+}
+.bm-burger-button {
+    color: #0ea264;
+    margin-left: -50px;
+    width: 20px;
+    position: relative;
+    margin-top: -56px;
+    height: 15px;
+    left: 20px;
+    top: 36px;
+    padding: 10px;
+}
+
+.bm-burger-bars {
+    background: #0ea264;
+}
+
+.bm-cross-button {
+    height: 35px;
+    width: 35px;
+    margin-right: 18px;
+}
+
+.bm-cross {
+    background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+    margin-left: -60px;
+    margin-top: -650px;
+    position: fixed;
+    height: 100%;
+}
+
+.bm-menu {
+    background: #373a47;
+    padding: 15px 15px 0px;
+    font-size: 18px;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+.bm-item {
+    display: inline-block;
+    color: #d1d1d1;
+    margin-bottom: 15px;
+    margin-left: -5px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: #ffffff;
+}
+
+.bm-overlay {
+    margin-left: -6.4vh;
+    margin-right: -20px;
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #a6a6a6;
+}
+
+a:hover{
+    color: #ffffff;
+}
