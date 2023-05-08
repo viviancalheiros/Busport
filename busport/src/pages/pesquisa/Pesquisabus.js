@@ -30,9 +30,15 @@ const Pesquisabus = () =>{
                 <img src={mapa3} width="465px" style={{margin:0,padding:0}}></img>
             </div>
             <div className="menuinferior1">
-                <div><Sidebar/></div>
-                <div><FaBus size={40} color="#0ea264"/></div>
-                <div><img src={logovamu} width="45px" /></div>
+                <div>
+                <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                </div>
+                <div>
+                    <Link to="/pesquisabus"><FaBus size={40} color="#0ea264"/></Link>
+                </div>
+                <div>
+                    <a href="https://vamumobilidade.com.br/"><img src={logovamu} width="45px" /></a>
+                </div>
                 <div>
                     <Link to="/perfil"><BsPersonFill size={40} color="#0ea264"/></Link>
                 </div>

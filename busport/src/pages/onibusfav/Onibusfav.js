@@ -42,16 +42,24 @@ const Onibusfav = () =>{
                 </div>
             </div>
             <div className="menuinferiorfav">
-                <div><Sidebar/></div>
-                <div><FaBus size={40} color="#0ea264"/></div>
-                <div><img src={logovamu} width="45px" /></div>
-                <div><BsPersonFill size={40} color="#0ea264"/></div>
+            <div>
+                <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                </div>
+                <div>
+                    <Link to="/pesquisabus"><FaBus size={40} color="#0ea264"/></Link>
+                </div>
+                <div>
+                    <a href="https://vamumobilidade.com.br/"><img src={logovamu} width="45px" /></a>
+                </div>
+                <div>
+                    <Link to="/perfil"><BsPersonFill size={40} color="#0ea264"/></Link>
+                </div>
                 <div>
                     <Link to="/reportar"><FiAlertCircle size={40} color="#0ea264"/></Link>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Onibusfav;

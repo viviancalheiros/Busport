@@ -3,6 +3,10 @@ import "./Cadastro.css";
 import "../login/Login.css";
 import { Link } from "react-router-dom";
 
+function cadastrado(){
+  alert("Cadastro realizado com sucesso!")
+}
+
 function Cadastro2() {
     return (
       <div className="bodyc">
@@ -64,7 +68,7 @@ function Botao() {
     return (
       <div className="bodyc">
         <Link to="/home">
-          <button className="entrar2" type="submit">Enviar</button>
+          <button onClick={cadastrado} className="entrar2" type="submit">Enviar</button>
         </Link>
       </div>
         

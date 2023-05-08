@@ -8,6 +8,9 @@ import {IoIosArrowDropleftCircle} from "react-icons/io";
 import logovamu from "../pesquisa/logovamu.png";
 import Sidebar from "../sidebar/Sidebar.js";
 
+function enviar(){
+    alert("Enviado com sucesso!")
+}
 
 const Reportar2 = () =>{
     return(
@@ -34,7 +37,7 @@ const Reportar2 = () =>{
             </div>
             <br/><br/>
             <Link to="/home">
-                <button className="enviar2">ENVIAR</button>
+                <button onClick={enviar} className="enviar2">ENVIAR</button>
             </Link>
             <div className="menuinferiorr2">
                 <div>
@@ -44,7 +47,7 @@ const Reportar2 = () =>{
                     <Link to="/pesquisabus"><FaBus size={40} color="#0ea264"/></Link>
                 </div>
                 <div>
-                    <img src={logovamu} width="45px"/>
+                <a href="https://vamumobilidade.com.br/"><img src={logovamu} width="45px" /></a>
                 </div>
                 <div>
                     <Link to="/perfil"><BsPersonFill size={40} color="#0ea264"/></Link>

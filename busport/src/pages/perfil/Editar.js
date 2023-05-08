@@ -4,6 +4,10 @@ import "../login/Login.css";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { Link } from "react-router-dom";
 
+function atualizado(){
+    alert("Dados atualizados!")
+}
+
 const Editar =() =>{
     return(
     <div className="bodyeditar">
@@ -40,7 +44,7 @@ const Editar =() =>{
             <input type="password"></input>
         </div>
         <Link to="/perfil">
-            <button className="atualizar">Atualizar</button>
+            <button onClick={atualizado} className="atualizar">Atualizar</button>
         </Link>
     </div>
     )
