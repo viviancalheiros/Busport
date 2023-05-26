@@ -3,7 +3,7 @@ import "./Cadastro.css";
 import "../login/Login.css";
 import { Link } from "react-router-dom";
 
-function cadastrado(){
+export function Cadastrado(){
   alert("Cadastro realizado com sucesso!")
 }
 
@@ -24,10 +24,11 @@ function Cadastro2() {
   );
 }
   
-function Nome() {
+export function Nome() {
     return (
       <form className="form2">
-        <br></br><input type="text" size="30" placeholder="Nome completo"/>
+        <br></br>
+        <input id="nome" type="text" size="30" placeholder="Nome completo"/>
       </form>
   );
 }
@@ -68,7 +69,7 @@ function Botao() {
     return (
       <div className="bodyc">
         <Link to="/home">
-          <button onClick={cadastrado} className="entrar2" type="submit">Enviar</button>
+          <button onClick={Cadastrado} className="entrar2" type="submit">Enviar</button>
         </Link>
       </div>
         
