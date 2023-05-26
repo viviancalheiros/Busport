@@ -33,39 +33,39 @@ export function Nome() {
   );
 }
   
-function CPF() {
+export function CPF() {
     return (
       <form className="form2">
-        <br></br><input type="text" maxLength="11" placeholder="CPF"/>
+        <br></br><input id="cpf" type="text" maxLength="11" placeholder="CPF"/>
       </form>
   );
 }
   
-function dataNasc() {
+export function dataNasc() {
     return (
       <form className="form2">
-        <br></br><input type="text" placeholder="Data de Nascimento" />
+        <br></br><input id="datanasc" type="text" placeholder="Data de Nascimento" />
       </form>
   );
 }
   
-function numCartao() {
+export function numCartao() {
     return (
       <form className="form2">
-        <br></br><input type="text" placeholder="Número do cartão" />
+        <br></br><input id="numcartao" type="text" placeholder="Número do cartão" />
       </form>   
   );
 }
 
-function tipoCartao() {
+export function tipoCartao() {
     return (
       <form className="form2">
-        <br></br><input type="text" placeholder="Tipo do cartão" />
+        <br></br><input id="tipocartao" type="text" placeholder="Tipo do cartão" />
       </form>
   );
 }
 
-function Botao() {
+export function Botao() {
     return (
       <div className="bodyc">
         <Link to="/home">

@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Perfil from './Perfil';
 
-describe('componente Perfil', () => {
-    test('se renderiza a página e os elementos', () => {
+describe('Componente Perfil', () => {
+    test('Renderizar a página e os elementos', () => {
         const { getByText, getByPlaceholderText } = render(<Perfil />);
         
         getByText('Olá, Mário');
